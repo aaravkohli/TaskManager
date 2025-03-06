@@ -19,8 +19,8 @@ This task manager provides a user-friendly interface for monitoring and managing
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/task-manager.git](https://github.com/your-username/task-manager.git)
-cd task-manager
+git clone https://github.com/aaravkohli/TaskManager.git
+cd TaskManager 
 ```
 2. Build and Load the Kernel Module (tm.c)
 
