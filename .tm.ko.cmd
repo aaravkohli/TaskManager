@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/osproject/tm.ko := ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/osproject/tm.ko /home/ubuntu/osproject/tm.o /home/ubuntu/osproject/tm.mod.o;  true
