@@ -27,14 +27,14 @@ cd TaskManager
 ```bash
 make
 sudo insmod tm.ko
-lsmod | grep tm  # Verify the module is loaded
-ls /proc | grep task_manager # Verify the /proc entry exists
-cat /proc/task_manager # View raw process data
+lsmod | grep tm  
+ls /proc | grep task_manager 
+cat /proc/task_manager 
 ```
 3. Install GTK for GUI (task_manager_ui.c)
 
 ```bash
-sudo apt update  # For Debian/Ubuntu-based distributions
+sudo apt update  
 sudo apt install libgtk-3-dev
 ```
 
